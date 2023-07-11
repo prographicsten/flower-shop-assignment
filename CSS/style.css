@@ -11,10 +11,9 @@
 .heder_info {
     display: flex;
     background: #FCEEF1;
-    height: 90vh;
     align-items: center;
     justify-content: space-around;
-    overflow: hidden;
+    padding-top: 60px;
 }
 
 .header_title {
@@ -44,9 +43,12 @@
     border-radius: 5px;
 }
 
-.header_shop_img {
-    width: 450px;
-    margin-bottom: -82px;
+.header_info_img {
+    background-image: url(../img/pngwing\ 10.png);
+    background-size: cover;
+    background-position: bottom right;
+    width: 400px;
+    height: 500px;
 }
 
 /* our featured flowers details css start */
@@ -172,10 +174,11 @@
 .instagram_images {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .instagram_img {
-    gap: 10px;
+    width: 23%;
 }
 
 .instagram_img img {
