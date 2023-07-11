@@ -16,6 +16,7 @@
     justify-content: space-around;
 }
 .header_title {
+    color: #272727;
     font-size: 45px;
     font-weight: bold;
     line-height: 60px;
@@ -24,7 +25,8 @@
 .header_info_text {
     width: 35%;
 }
-.header_para {
+.header_para, .para {
+    color: #B5ACAE;
     font-size: 13px;
     margin-bottom: 25px;
 }
@@ -39,4 +41,18 @@
 .header_shop_img {
     width: 450px;
     margin-bottom: -82px;
+}
+
+/* our featured flowers details css start */
+.our_featured_flowers_details {
+    padding: 0% 10%;
+    padding-top: 120px;
+    padding-bottom: 70px;
+
+}
+.our_featured_flowers {
+    text-align: center;
+}
+.flower_frames {
+    display: flex;
 }
