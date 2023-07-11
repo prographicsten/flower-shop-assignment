@@ -31,8 +31,9 @@
 
 .header_para, .para {
     color: #B5ACAE;
-    font-size: 13px;
+    font-size: 11px;
     margin-bottom: 25px;
+    line-height: 20px;
 }
 
 .btn {
@@ -50,7 +51,7 @@
 
 /* our featured flowers details css start */
 .our_featured_flowers_details {
-    padding: 0% 10%;
+    margin: 0% 10%;
     padding-top: 120px;
     padding-bottom: 70px;
 
@@ -105,11 +106,80 @@
     background: #f4f4f4;
     display: flex;
     justify-content: space-around;
-    padding: 50px 0;
+    padding: 80px 0;
     text-align: center;
     margin-top: 100px;
+    border-radius: 5px;
 }
 
 .services {
     align-items: center;
+}
+
+.service img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+/* sale discount area start  */
+.discount_area {
+    display: flex;
+    background: #fdf6f8;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    gap: 150px;
+}
+
+.discount_content {
+    text-align: center;
+}
+
+.discount_content h2 {
+    margin-bottom: 10px;
+}
+
+.sale_product img {
+    width: 250px;
+}
+
+.off {
+    color: #E55473;
+}
+
+/* instagram content area start  */
+.instagram_section {
+    padding: 100px 0;
+    margin: 0% 10%;
+}
+
+.instagram_content {
+    text-align: center;
+}
+
+.instagram_content h2 {
+    margin-bottom: 10px;
+}
+
+.instagram_content p {
+    margin-bottom: 30px;
+}
+
+.instagram_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram_img {
+    gap: 10px;
+}
+
+.instagram_img img {
+    width: 285px;
+    height: 350px;
+    border-radius: 5px;
 }
