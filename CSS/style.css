@@ -153,7 +153,8 @@
 /* sale discount area start  */
 .discount_area {
     display: flex;
-    background: #fdf6f8;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
     justify-content: center;
     align-items: center;
     padding: 70px 0;
@@ -169,7 +170,8 @@
 }
 
 .sale_product img {
-    width: 250px;
+    width: 318px;
+    height: 420px;
 }
 
 .off {
