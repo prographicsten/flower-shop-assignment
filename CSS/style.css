@@ -14,7 +14,9 @@
     height: 90vh;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
 }
+
 .header_title {
     color: #272727;
     font-size: 45px;
@@ -22,14 +24,17 @@
     line-height: 60px;
     margin-bottom: 25px;
 }
+
 .header_info_text {
-    width: 35%;
+    width: 510px;
 }
+
 .header_para, .para {
     color: #B5ACAE;
     font-size: 13px;
     margin-bottom: 25px;
 }
+
 .btn {
     color: #fff;
     padding: 12px 30px;
@@ -50,9 +55,41 @@
     padding-bottom: 70px;
 
 }
+
+.our_featured_flowers h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.our_featured_flowers p {
+    margin-bottom: 40px;
+}
+
 .our_featured_flowers {
     text-align: center;
 }
+
 .flower_frames {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower_frame {
+    text-align: center;
+}
+
+.flower_img {
+ width: 380px;
+ height: 420px;
+ background-color: var(---clr);
+ overflow: hidden;
+ border-top-right-radius: 50%;
+ border-top-left-radius: 50%;
+}
+
+.flower_img img {
+    width: 250px;
+    padding-top: 75px;
 }
