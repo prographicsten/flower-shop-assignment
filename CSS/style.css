@@ -125,13 +125,13 @@
 
 /* services area start here */
 .services {
-    background: #f4f4f4;
     display: flex;
     justify-content: space-around;
     padding: 80px 0;
     text-align: center;
     margin-top: 100px;
-    border-radius: 5px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
 }
 
 .services {
