@@ -183,3 +183,29 @@
     height: 350px;
     border-radius: 5px;
 }
+
+/* subscribe area start here  */
+.subscribe_area {
+    margin-top: 80px;
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(../img/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.subscribe_content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.subscribe_btn input {
+    border: none;
+    padding: 12px 12px;
+    width: 500px;
+    border-radius: 5px;
+    color: #7D7D7D;
+    margin-right: 5px;
+}
