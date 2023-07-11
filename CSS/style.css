@@ -209,3 +209,27 @@
     color: #7D7D7D;
     margin-right: 5px;
 }
+
+.footer {
+    background: #111010;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.footer h2 span {
+    color: #e55473;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
